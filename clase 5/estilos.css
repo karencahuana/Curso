@@ -1,0 +1,40 @@
+.caja{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(180, 108, 20);
+    margin: 100px;
+    color: aliceblue;
+    box-shadow: 20px 30px 10px black;
+    /*primer valor posicion en eje x - segundo valor eje y - tercer valor es blur - color
+     abajo y derecha (+) arriba e izq (-) */
+    padding: 10px;
+}
+
+.caja2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(192, 154, 107);
+    margin: 100px;
+    color: aliceblue;
+    border: 3px solid black;
+    padding: 10px;
+    /* border-radius: 15px; */
+    border-radius: 0px 30px;
+}
+.texto{
+    background-color: rgb(233, 143, 143);
+    column-count: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+.texto p {
+    margin: 0
+}
+h1{
+    font-family: 'Montserrat semibold';
+}
+h2{
+    font-family: 'Montserrat regular';
+}
+p{
+    font-family: 'Montserrat extralight';
+}
