@@ -1,0 +1,16 @@
+.contenedor{
+    background-color: aqua;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-evenly;
+}
+.item{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

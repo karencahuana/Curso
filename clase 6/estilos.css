@@ -1,0 +1,32 @@
+.contenedor{
+    background-color: grey;
+    width: 60%;
+    margin: 0 auto; /*perimer valor eje y: no necesito modificar - segundo valor eje x: automatico */
+    height: 500px;
+    position: relative;
+
+}
+.verde{
+    background-color: rgb(141, 192, 65);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.celeste{
+    background-color: rgb(100, 227, 236);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.amarillo{
+    background-color: rgb(250, 232, 70);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /* arriba - laterales - abajo*/
+}
