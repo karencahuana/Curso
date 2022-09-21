@@ -1,0 +1,33 @@
+.caja{
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center; /*eje x */
+    align-items: center; /*eje y*/
+    margin: 100px;
+    /* transform: rotate(-25deg); */
+    /* transform: scale(0.5); */
+    transition: all 0.5s ease;
+    animation: rectangulo 3s ease;
+}
+@keyframes rectangulo {
+    15% {
+        background-color: red;
+    }
+    35% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: orange;
+    }
+    65% {
+        background-color: blue;
+    }
+    85% {
+        background-color: violet;
+    }
+    100% {
+        background-color: green;
+    }
+}
