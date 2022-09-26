@@ -1,0 +1,13 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: yellow;
+}
+h2{
+    color: yellowgreen;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
