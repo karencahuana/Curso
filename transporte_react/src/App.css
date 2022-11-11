@@ -1,0 +1,11 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+  color: #2e64a1;
+  font-weight: 400;
+}
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+}
